@@ -3,8 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio - Atomic Devotion</title>
-    <link rel="stylesheet" href="style.css"> <!-- Si tienes un archivo CSS para estilos -->
+    <title>Mi Portafolio</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin-top: 100px;
+        }
+        .projects-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .project {
+            background-color: #444;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            width: 250px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        .project:hover {
+            background-color: #666;
+        }
+        .project a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -12,28 +46,13 @@
         <p>Este es mi espacio para mostrar mis proyectos y habilidades de desarrollo.</p>
     </header>
 
-    <section>
-        <h2>Sobre el Proyecto: Atomic Devotion</h2>
-        <p>
-            <a href="AtomicDevotion/ProjectSummary.md">Lee el resumen del proyecto aquí</a>
-        </p>
-    </section>
-
-    <section>
-        <h2>Componentes del Proyecto</h2>
-        <ul>
-            <li><a href="AtomicDevotion/Design/">Carpeta de Diseño</a></li>
-            <li><a href="AtomicDevotion/Scripts/">Scripts</a></li>
-            <li><a href="AtomicDevotion/Animations/">Animaciones</a></li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Proyectos Destacados</h2>
-        <ul>
-            <li><a href="https://github.com/miusuario/proyecto1">Proyecto 1</a></li>
-            <li><a href="https://github.com/miusuario/proyecto2">Proyecto 2</a></li>
-        </ul>
+    <section class="projects-container">
+        <div class="project">
+            <a href="https://github.com/Gustavo-045/Gustavo-Lora-Portfolio/tree/main/Atomic%20Devotion/Project%20Summary.md">Atomic Devotion</a>
+        </div>
+        <div class="project">
+            <a href="#">Otro Proyecto</a>
+        </div>
     </section>
 
     <footer>
