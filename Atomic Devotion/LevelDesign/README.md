@@ -54,7 +54,7 @@ This is the main level of the game, featuring a significant number of enemies. T
 
 ![Captura de pantalla 2024-09-01 200250](https://github.com/user-attachments/assets/c7228d9f-99ec-4485-8baf-982e922fbae5)
 
-## Interactive Model for Colors
+### Interactive Model for Colors
 
 https://sketchfab.com/models/a05231edd05c4c8998f47e5d28aa9ae8/embed
 
