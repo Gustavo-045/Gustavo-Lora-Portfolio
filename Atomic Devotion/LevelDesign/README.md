@@ -54,20 +54,21 @@ This is the main level of the game, featuring a significant number of enemies. T
 
 ![Captura de pantalla 2024-09-01 200250](https://github.com/user-attachments/assets/c7228d9f-99ec-4485-8baf-982e922fbae5)
 
-### Interactive Model for Colors
+#### Interactive Model for Colors
 
 https://sketchfab.com/models/a05231edd05c4c8998f47e5d28aa9ae8/embed
 
 
 
-### Color Descriptions
+#### Color Descriptions
 
 ![Captura de pantalla 2024-09-03 090723](https://github.com/user-attachments/assets/29de781a-bb63-4733-a06d-f5c39858145a)
 
 ---
 
+### Objects
 
-### Documents
+#### Documents
 
 1. **Document 1**  
    **Description/Effect**: Letter with the central diagnostic, recording the failures  
@@ -119,7 +120,7 @@ https://sketchfab.com/models/a05231edd05c4c8998f47e5d28aa9ae8/embed
 
 ---
 
-### Pieces
+#### Pieces
 
 1. **Energy Cell (Piece 1)**  
    **Location**: Power Room
@@ -138,7 +139,7 @@ https://sketchfab.com/models/a05231edd05c4c8998f47e5d28aa9ae8/embed
 
 ---
 
-### Stations
+#### Stations
 
 1. **Station 1**  
    **Location**: Elevators  
@@ -150,7 +151,7 @@ https://sketchfab.com/models/a05231edd05c4c8998f47e5d28aa9ae8/embed
 
 ---
 
-### Keys
+#### Keys
 
 1. **Key 1**  
    **Location**: Meeting Room  
@@ -170,7 +171,7 @@ https://sketchfab.com/models/a05231edd05c4c8998f47e5d28aa9ae8/embed
 
 ---
 
-### MedKits
+#### MedKits
 
 - **Location**: Office 2  
 - **Location**: Security Room  
@@ -178,7 +179,7 @@ https://sketchfab.com/models/a05231edd05c4c8998f47e5d28aa9ae8/embed
 
 ---
 
-### Radiation Injections
+#### Radiation Injections
 
 - **Location**: Power Room  
 - **Location**: Material Storage Room  
@@ -186,7 +187,7 @@ https://sketchfab.com/models/a05231edd05c4c8998f47e5d28aa9ae8/embed
 
 ---
 
-### Key Maps
+#### Key Maps
 
 ![Captura de pantalla 2024-11-10 011248](https://github.com/user-attachments/assets/1024ed11-c94e-43bc-a844-1ca2f8342451)
 
