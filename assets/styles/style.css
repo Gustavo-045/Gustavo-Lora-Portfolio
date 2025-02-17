@@ -1,0 +1,99 @@
+este codigo lo pongo dentro del index? <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alafresh - Game Developer</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #000;
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: #111;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+        }
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 50px;
+            background: url('assets/images/background.png') center/cover;
+        }
+        .hero-content h1 span {
+            color: red;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .btn-red, .btn-white {
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .btn-red {
+            background: red;
+            color: white;
+        }
+        .btn-white {
+            background: white;
+            color: black;
+        }
+        .hero-image img {
+            width: 200px;
+            border-radius: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#feat">Feat</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="Alafresh Logo">
+        </div>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Hi There, I'm <span>Juan Guillermo</span></h1>
+                <p>Crafting Worlds, One Pixel at a Time</p>
+                <p>From captivating indie games to immersive animations, I blend creativity and technology to bring unique digital experiences to life.</p>
+                <div class="buttons">
+                    <a href="#hire" class="btn-red">Hire Me</a>
+                    <a href="#cv" class="btn-white">Look my CV</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/profile.png" alt="Juan Guillermo">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
