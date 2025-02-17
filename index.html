@@ -1,63 +1,99 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
+    <title>Alafresh - Game Developer</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
     <style>
         body {
-            background-color: #000;
-            color: #fff;
+            margin: 0;
             font-family: Arial, sans-serif;
+            background: #000;
+            color: #fff;
             text-align: center;
         }
-        h1 {
-            font-size: 3em;
-            margin-top: 100px;
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: #111;
         }
-        .projects-container {
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+        }
+        .hero {
             display: flex;
             justify-content: center;
-            margin-top: 50px;
+            align-items: center;
+            flex-direction: column;
+            padding: 50px;
+            background: url('assets/images/background.png') center/cover;
         }
-        .project {
-            background-color: #444;
-            border-radius: 10px;
-            padding: 20px;
-            margin: 20px;
-            width: 250px;
-            text-align: center;
-            transition: background-color 0.3s;
+        .hero-content h1 span {
+            color: red;
         }
-        .project:hover {
-            background-color: #666;
+        .buttons {
+            margin-top: 20px;
         }
-        .project a {
+        .btn-red, .btn-white {
+            padding: 10px 20px;
+            border-radius: 5px;
             text-decoration: none;
-            color: #fff;
-            font-size: 1.2em;
             font-weight: bold;
+        }
+        .btn-red {
+            background: red;
+            color: white;
+        }
+        .btn-white {
+            background: white;
+            color: black;
+        }
+        .hero-image img {
+            width: 200px;
+            border-radius: 20px;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Bienvenido a mi Portafolio</h1>
-        <img src = "https://github.com/Gustavo-045/Gustavo-Lora-Portfolio/blob/main/Images/Greedo1.png" alt="">
-        <p>Este es mi espacio para mostrar mis proyectos y habilidades de desarrollo.</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#feat">Feat</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="Alafresh Logo">
+        </div>
     </header>
-
-    <section class="projects-container">
-        <div class="project">
-            <a href="https://github.com/Gustavo-045/Gustavo-Lora-Portfolio/tree/main/Atomic%20Devotion/Project%20Summary.md">Atomic Devotion</a>
-        </div>
-        <div class="project">
-            <a href="#">Otro Proyecto</a>
-        </div>
-    </section>
-
-    <footer>
-        <p>Creado con GitHub Pages</p>
-    </footer>
+    
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Hi There, I'm <span>Juan Guillermo</span></h1>
+                <p>Crafting Worlds, One Pixel at a Time</p>
+                <p>From captivating indie games to immersive animations, I blend creativity and technology to bring unique digital experiences to life.</p>
+                <div class="buttons">
+                    <a href="#hire" class="btn-red">Hire Me</a>
+                    <a href="#cv" class="btn-white">Look my CV</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/profile.png" alt="Juan Guillermo">
+            </div>
+        </section>
+    </main>
 </body>
 </html>
