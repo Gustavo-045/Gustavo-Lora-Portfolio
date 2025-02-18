@@ -1,6 +1,6 @@
 /* Estilos generales */
 body {
-    background: url('background_projects.png') no-repeat center center fixed;
+    background: url('assets/images/background_projects.png') no-repeat center center fixed;  
     background-size: cover;
     font-family: Arial, sans-serif;
     color: white;
