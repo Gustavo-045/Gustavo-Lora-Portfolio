@@ -1,84 +1,98 @@
-/* Estilos generales */
-body {
-    background: url('assets/images/background_projects.png') no-repeat center center fixed;
-    background-size: cover;
-    font-family: Arial, sans-serif;
-    color: white;
+/* Reset básico */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
 
-/* Encabezado de proyectos */
-.projects-header {
-    text-align: center;
-    margin-bottom: 40px; /* Mayor margen para separación */
-}
-
-.projects-header h1 {
-    font-size: 28px;
-    color: white;
-}
-
-.projects-header p {
-    font-size: 16px;
-    max-width: 800px;
-    margin: auto;
-}
-
-/* Contenedor de proyectos */
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
-    gap: 20px;
-    padding: 50px;
-    max-width: 1300px;
-    margin: auto;
-}
-
-/* Tarjetas de proyectos */
-.project-card {
-    background: rgba(0, 0, 0, 0.8);
+/* Barra de navegación */
+nav {
+    background-color: #d0021b;
     padding: 15px;
-    border-radius: 10px;
-    text-align: center;
-    transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
 }
 
-.project-card:hover {
-    transform: scale(1.05);
-}
-
-.project-card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 5px;
-}
-
-.project-card h3 {
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-.project-card p {
-    font-size: 14px;
-    margin-top: 5px;
-}
-
-/* Botón de navegación */
-.project-link {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px;
-    background: red;
+nav a {
     color: white;
-    border-radius: 50%;
-    font-weight: bold;
     text-decoration: none;
     font-size: 18px;
+    margin: 0 15px;
 }
 
-.project-link:hover {
-    background: darkred;
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor principal */
+.container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.container h1 {
+    color: white;
+    background-color: #d0021b;
+    padding: 20px;
+    font-size: 36px;
+}
+
+.container p {
+    font-size: 18px;
+    color: #333;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Sección de proyectos */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.project {
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project h2 {
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.project p {
+    font-size: 16px;
+    color: #666;
+    padding: 0 15px 20px;
+}
+
+/* Flechas */
+.arrow-button {
+    background-color: #d0021b;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.arrow-button img {
+    width: 20px;
+    height: 20px;
 }
