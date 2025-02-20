@@ -8,17 +8,26 @@
 
 /* Barra de navegación */
 nav {
-    background-color: #d0021b;
+    background-color: black;
     padding: 15px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    margin: 0 15px;
 }
 
 nav a:hover {
@@ -29,17 +38,16 @@ nav a:hover {
 .projects-hero {
     text-align: center;
     padding: 50px 20px;
-    background-color: #f4f4f4;
+    background-color: black;
+    color: white;
 }
 
 .projects-hero h1 {
     font-size: 36px;
-    color: #d0021b;
 }
 
 .projects-hero p {
     font-size: 18px;
-    color: #333;
     max-width: 800px;
     margin: 20px auto;
 }
@@ -65,8 +73,8 @@ nav a:hover {
 
 .project-image {
     width: 100%;
-    height: 200px; /* Tamaño uniforme */
-    object-fit: cover; /* Recorta sin distorsionar */
+    height: 200px;
+    object-fit: cover;
     display: block;
 }
 
