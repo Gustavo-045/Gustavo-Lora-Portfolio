@@ -54,18 +54,32 @@ header {
     border-radius: 10px;
 }
 
+@media (max-width: 768px) {
+    .game-description {
+        flex-direction: column;
+        text-align: center;
+    }
+    .game-description img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
 /* Sección de Enfoque Personal */
 .focus, .team, .gallery {
     text-align: center;
     padding: 20px;
 }
 
+/* Carrusel */
 .carousel {
     display: flex;
     overflow-x: auto;
     gap: 10px;
     padding: 10px;
     scroll-snap-type: x mandatory;
+    white-space: nowrap;
+    scrollbar-width: none;
 }
 
 .carousel img {
@@ -91,4 +105,14 @@ header {
 .gallery .carousel img {
     width: 25%;
     border-radius: 10px;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
 }
