@@ -8,7 +8,7 @@
 
 /* Fondo del cuerpo */
 body {
-    background-image: url('../images/projects_background.png'); /* Ajuste en la ruta */
+background-image: url('/assets/images/projects_background.png');
     background-size: cover; /* Ajusta el tamaño para cubrir la pantalla */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita repeticiones */
