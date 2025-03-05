@@ -62,15 +62,23 @@ nav a:hover {
 }
 
 /* Sección de proyectos */
+/* Asegurar que toda la sección tenga el fondo negro */
+.projects-section {
+    background-color: black;
+    width: 100%;
+    padding: 50px 0; /* Ajusta el espacio si es necesario */
+}
+
+/* Asegurar que el contenedor interno no limite el ancho */
 .projects-grid {
-    background-color: black; /* Se agregó el fondo negro */
+    max-width: 1200px; /* Mantener el ancho máximo */
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
-    max-width: 1200px;
-    margin: auto;
-    padding: 50px 20px;
+    padding: 20px;
 }
+
 
 /* Tarjetas de proyectos */
 .project-item {
