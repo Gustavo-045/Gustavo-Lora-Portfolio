@@ -6,6 +6,15 @@
     font-family: 'Arial', sans-serif;
 }
 
+/* Fondo del cuerpo */
+body {
+    background-image: url('../images/projects_background.png'); /* Ajuste en la ruta */
+    background-size: cover; /* Ajusta el tamaño para cubrir la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita repeticiones */
+    background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
+}
+
 /* Barra de navegación */
 nav {
     background-color: black;
